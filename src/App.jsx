@@ -2,10 +2,9 @@
 /* eslint-disable import/named */
 import React from 'react';
 import './App.css';
-import { Welcome } from './components/Welcome/Welcome.jsx';
 import { Header } from './components/Header/Header.jsx';
 import { Article } from './components/Article/Article.jsx';
-
+import { Welcome } from './components/Welcome/Welcome.jsx';
 // Move each BEM block to a separate component (file) and import them here
 
 function App() {
